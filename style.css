@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+.navbar {
+  background-color: #f2f5f9;
+  padding: 15px 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 35px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+}
+
+.top-section {
+  display: flex;
+  padding: 40px;
+}
+
+.Intro {
+  width: 33%;
+  padding-right: 20px;
+}
+
+.Intro h1 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.Intro p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #2dd6c1;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card {
+  width: 33%;
+  padding: 0 15px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card a {
+  color: #2dd6c1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.blog-heading {
+  text-align: center;
+  padding: 20px 100px;
+}
+
+.blog-heading h3{
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.blog-heading p {
+  color: #999999;
+  font-size: 14px;
+}
+
+.blog-section {
+  display: flex;
+  padding: 0 ;
+}
+
+.blog-card {
+  width: 33%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dddddd;
+}
+
+.blog-card h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+.blog-card p {
+  font-size: 15px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px;
+}
